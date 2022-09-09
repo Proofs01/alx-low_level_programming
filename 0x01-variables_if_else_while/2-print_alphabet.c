@@ -24,7 +24,7 @@ break
 
 ;				
 				}
-putchar(',');
+putchar(' , ');
 				putchar(' ');
 			}
 		}
