@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -17,7 +18,6 @@ int main(void)
 	if (i != j && i < j)
 	{
 putchar(i);
-
 putchar(j);
 	if (j == 57 && i == 56)
 	{
