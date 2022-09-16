@@ -1,21 +1,20 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
- * _isdigit - determine if digit
+ * _isdigit - determine if digit or not
  *
- * @c: character to determine
+ * @c: tested character
  *
- * Return: return 0 on success and 1 on fail
+ * Return: return 1 if it is, and 0 otherwise
  */
 
 int _isdigit(int c)
 {
-  int i = isdigit(c);
+	if ((c >= 48) && (c <= 57))
+	{
+		return (1);
 
-  if (i > 0 )
-  {
+	}
 
-	      return (1);
-       return (0);
+	return (0);
 }
