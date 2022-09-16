@@ -2,63 +2,22 @@
 #define MAIN_H
 
 /**
- * _isupper - determines uppercase or not
- * @c: character to determine
- * Return: true or false
+ * main - header file for prototypes
+ * void prototypes (void)
+ * int prototypes (int)
  */
-int _isupper(int c);
-/**
- * isdigit - checks if it is digit
- * @c: character to check
- *
- * Return: returns boolean
- */
-int_isdigit(int c)
-/**
- * mul - multiplies stuff
- * @a: integer to multiply
- * @b: integer to multiply
- * Return: gives result
- */
-int mul(int a, int b);
-/**
- * print_numbers - prints the numbers
- *
- */
-void Print_numbers(void);
-/**
- * print_most_numbers - print the numbers
- *
- */
-void print_most_numbers(void);
 
-/**
- * more_numbers - prints the numbers
- *
- */
-void more_numbers(void)
-/**
- * print_line - prints a line
- *
- * @n: integer to print stuff
- */
+void print_numbers(void);
+old print_most_numbers(void);
+void more_numbers(void);
 void print_line(int n);
-/**
- * print_diagonal - prints diagonal
- *
- * @n: integer to see how many stupid lines
- */
 void print_diagonal(int n);
-/**
- * print_square - prints a square
- *
- * @size: prints the size of whatever
- */
 void print_square(int size);
-/**
- * print_triangle - prints triangle
- * @size: size of triangle
- */
 void print_triangle(int size);
+void print_number(int n);
+int _putchar(char);
+int _supper(int);
+int _isdigit(int);
+int mul(int, int);
 
-#endif
+#endif /* MAIN_H */
