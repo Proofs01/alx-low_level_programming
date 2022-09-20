@@ -10,24 +10,26 @@
  */
 int main(void)
 {
-	int pass[100];
-	int i, count, s;
+	char str[100];
+	int i = 0, randNum = 0, suma = 0;
 
-	count = 0;
+	srand (time(NULL));
 
-	srand(time(NULL));
-	for (i = 0; i < 100; i++)
+
+
+	for ( i = 0; suma <= 2644; i++)
 	{
-		pass[i] = rand() % 78;
-		count += (pass[i] + '0');
-		putchar(pass[i] + '0');
-		if ((2772 - count) - '0' > 78)
-	{
-		s = 2772 - count - '0';
-		count += s;
-		putchar(s + '0');
-		break;
+		randNum = (rand() % 25) + 65;
+
+		str[i] = randNum;
+		suma = suma + randNum;
 	}
-	}
+
+	str[i++] = 2772 - suma;
+	str[i++] = '\0';
+
+	printf("%s\n", str);
+
 	return (0);
 }
+
