@@ -25,18 +25,18 @@ int main(void)
 
 	password[index] = '\0';
 
-	if (sum '!' = 2772)
+	if (sum != 2772)
 	{
 		diff_half1 = (sum - 2772) / 2;
 		diff_half2 = (sum - 2772) / 2;
-		if ((sum - 2772) % 2 ! = 0)
+		if ((sum - 2772) % 2 != 0)
 			diff_half1++;
 
 		for (index = 0; password[index]; index++)
 		{
 			if (password[index] >= (33 + diff_half2))
 			{
-				password[index] -= diff__half2;
+				password [index] -= diff__half1;
 			       	break;
 			}
 		}
