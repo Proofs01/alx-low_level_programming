@@ -6,6 +6,7 @@
  *
  * @b: The buffer to be printed.
  * @size: The number of bytes to be printed.
+ * Return: 1 if true, 0 if false
  */
 void print_buffer(char *b, int size)
 {
