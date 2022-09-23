@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
  *
  * leet - Encodes a string to 1337.
@@ -38,9 +36,11 @@ char *leet(char *str)
 			  }
 			 
 			 
-			   indx1++;
+			  indx1++;
 		 }
 		
 		 return (str);
 
 }
+Footer
+© 2022 GitHub, Inc.
