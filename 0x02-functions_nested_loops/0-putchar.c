@@ -1,21 +1,26 @@
+#include <stdio.h>
 #include "main.h"
-#include <string.h>
 
 /**
- * main - Entry point
+ * main - Program entry point
  *
- * Description: prints _putchar using putchar prototype
- *
- * Return: Always 0 (Success)
+ * Description: This is a program that will print the
+ * the message "_putchar" to the screen followed by a
+ * newline. It uses a locally defined function
+ * (_putchar) to accomplish this.
+ * Return: Always 0 (If Successful)
  */
-
 int main(void)
 {
- char str[] = "_putchar"; int ch;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
- for (ch = 0; ch < 8; ++ch)
- _putchar(str[ch]);
-_putchar('\n');
-
-return (0);
+	return (0);
 }
